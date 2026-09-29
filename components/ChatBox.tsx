@@ -26,11 +26,13 @@ export default function ChatBox() {
         // clear
         setInput("")
 
+        const lastMessages = messages.slice(-6)
+
         // fetch answer
         const res = await fetch("/api/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ message: inputText, orgId: orgIdTest }),
+            body: JSON.stringify({ message: inputText, orgId: orgIdTest, history: lastMessages }),
         });
         const data = await res.json();
         setMessages((prev) => [...prev, { role: "chat", text: data.answer ?? data.error }]);
