@@ -1,0 +1,9 @@
+sku,name,category,price_eur,weight_kg,stock_status,description
+ACM-TNT-201,Summit 2 Tent,Tents,249.00,2.1,in_stock,"Two-person 3-season tent with double entrance, 2,1 kg, 20-minute setup."
+ACM-TNT-402,Basecamp 4 Tent,Tents,429.00,5.8,low_stock,"Four-person family tent with vestibule and blackout bedroom."
+ACM-BAG-015,Nordwand -15 Sleeping Bag,Sleeping bags,319.00,1.6,in_stock,"Down sleeping bag, comfort temperature -8°C, limit -15°C."
+ACM-BAG-005,Riverside +5 Sleeping Bag,Sleeping bags,89.00,1.1,in_stock,"Synthetic summer sleeping bag, machine washable."
+ACM-PAK-045,Trailhead 45L Backpack,Backpacks,159.00,1.4,in_stock,"Hiking backpack with adjustable back system and rain cover."
+ACM-PAK-070,Expedition 70L Backpack,Backpacks,239.00,2.2,out_of_stock,"Trekking backpack for multi-day trips. Restock expected mid-November."
+ACM-SHO-310,Granite Mid GTX Boots,Footwear,179.00,1.3,in_stock,"Waterproof mid-cut hiking boots, Vibram sole. Runs half a size small."
+ACM-CLM-100,Vertex Harness,Climbing,69.00,0.4,in_stock,"Climbing harness with 4 gear loops. Safety item: cannot be returned once used."

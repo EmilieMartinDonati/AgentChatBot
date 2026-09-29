@@ -1,0 +1,6 @@
+[
+  { "carrier": "Colissimo", "service": "Standard", "zones": ["France"], "deliveryTimeBusinessDays": "2-3", "price": "4.90 EUR", "freeAbove": "60 EUR", "tracking": true },
+  { "carrier": "Chronopost", "service": "Express 24h", "zones": ["France"], "deliveryTimeBusinessDays": "1", "price": "12.90 EUR", "freeAbove": null, "tracking": true, "notes": "Orders placed before 1pm ship the same day." },
+  { "carrier": "DHL", "service": "Europe", "zones": ["Belgium", "Germany", "Spain", "Italy", "Netherlands"], "deliveryTimeBusinessDays": "3-5", "price": "9.90 EUR", "freeAbove": "120 EUR", "tracking": true },
+  { "carrier": "Mondial Relay", "service": "Pickup point", "zones": ["France", "Belgium"], "deliveryTimeBusinessDays": "3-5", "price": "3.50 EUR", "freeAbove": "50 EUR", "tracking": true, "notes": "Parcels are kept 10 days at the pickup point before being returned to us." }
+]

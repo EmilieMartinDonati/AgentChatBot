@@ -1,0 +1,26 @@
+ACME OUTDOOR GEAR - CUSTOMER SUPPORT PLAYBOOK
+Internal document - do not share with customers
+
+1. Tone of voice
+Be friendly and practical, like a fellow hiker. Use the customer's first name. Avoid technical jargon unless the customer uses it first.
+
+2. Response times
+Email: answer within 24 hours on business days.
+Chat: answer within 2 minutes during opening hours (Monday to Saturday, 9am to 7pm, Paris time).
+
+3. Escalation
+Escalate to the team lead (Julien) when:
+- a customer asks for a refund above 500 EUR,
+- a customer mentions an injury linked to a product (for example a broken harness or a tent pole that snapped),
+- a customer threatens legal action or a public complaint.
+Safety incidents must be reported the same day using the "Safety incident" form.
+
+4. Compensation guidelines
+Late delivery (more than 3 business days late): offer free shipping on the next order.
+Damaged parcel: send a replacement immediately, no need to wait for the return.
+Wrong item sent: refund shipping and send the correct item by Chronopost at our expense.
+Agents can grant up to 20 EUR of goodwill vouchers without approval.
+
+5. Things agents must never do
+Never promise a restock date that is not written in the catalog.
+Never change the delivery address of an order that is already shipped - the customer must contact the carrier.

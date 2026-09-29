@@ -1,0 +1,7 @@
+sku,product,type,price_eur,key_ingredients,common_allergens,vegan,suitable_for
+BLM-SER-01,Glow Vitamin C Serum,Serum,34.00,"Vitamin C 15%, hyaluronic acid, ferulic acid",Citrus limonene,yes,"Normal to oily skin. Not recommended for very sensitive skin."
+BLM-CRM-02,Cloud Night Cream,Moisturizer,29.00,"Shea butter, ceramides, squalane",Shea (tree nut derivative),yes,"Dry and sensitive skin."
+BLM-CLN-03,Petal Cleansing Balm,Cleanser,22.00,"Sunflower oil, rose extract, vitamin E",Rose (geraniol and citronellol),yes,"All skin types. Removes waterproof make-up."
+BLM-LIP-04,Honey Lip Mask,Lip care,15.00,"Honey, beeswax, lanolin","Beeswax, lanolin",no,"All skin types. Contains animal-derived ingredients."
+BLM-SPF-05,Daily Shield SPF 50,Sunscreen,27.00,"Zinc oxide, niacinamide",None known,yes,"All skin types, including children over 3 years old."
+BLM-MSK-06,Clay Detox Mask,Mask,19.00,"Kaolin clay, tea tree oil, charcoal",Tea tree oil,yes,"Oily and acne-prone skin. Not for use during pregnancy without medical advice."

@@ -10,6 +10,100 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+    /* Added */
+  /* Background colors */
+  --color-bg-dark: #0c0c0c;
+  --color-bg-light: #f9f8f5;
+
+  /* Card */
+  --color-card-bg: #f8f7f4;
+  --color-card-border: #E0DDD6;
+
+  /* Accent */
+  --color-accent: #e0512e;
+  /* coral */
+
+  /* Colors */
+  /* colors for texts */
+  --color-dark: #0c0c0c;
+  --color-muted-dark: #666666;
+  --color-muted-white: rgba(255, 255, 255, 0.42);
+  /* the grey that appears on black baground like "About" in header*/
+  --color-standard-grey: #5A5A5A;
+  --color-timid-grey: #AAAAAA;
+  /* => Example "full case study" + section title on white bg
+
+  /* Section separators */
+  --color-separator-light: #eceae6;
+  --color-separator-dark: #1a1a1a;
+
+  /* Tag: purple */
+  --color-tag-purple-bg: #eeedfe;
+  --color-tag-purple-text: #534ab7;
+  --color-tag-purple-border: #afa9ec;
+
+  /* Tag: teal */
+  --color-tag-teal-bg: #E1F5EE;
+  --color-tag-teal-text: #0f6e56;
+  --color-tag-teal-border: #5dcaa5;
+
+  /* Tag: neutral */
+  --color-tag-neutral-bg: #f1efe8;
+  --color-tag-neutral-text: #5f5e5a;
+  --color-tag-neutral-border: #b4b2a9;
+
+  /* Tag : coral */
+  --color-tag-coral-bg: #e0512e1f;
+  --color-tag-coral-text: #E0512E;
+  --color-tag-coral-border: #e0512e40;
+
+  /* Tag : dark */
+  --color-tag-dark-bg: #181818;
+  --color-tag-dark-text: #cccccc;
+  --color-tag-dark-border: #282828;
+
+  /* Spacing — only the values reused across sections.*/
+  /* shared horizontal padding, all sections */
+  --spacing-section-x: 28px;
+  /* shared vertical padding: about, stack, projects */
+  --spacing-section-y: 48px;
+
+  /* Border width */
+  --border-hairline: 0.5px;
+
+  /* Border radius */
+  --radius-card: 10px;
+  --radius-tag: 20px;
+  --radius-button: 5px;
+  --radius-badge: 4px;
+  --radius-dot: 50%;
+
+  /* Typography
+     Each --text-* generates a utility (e.g. text-h1) that sets
+     font-size + line-height + letter-spacing + font-weight together. */
+  --text-h1: 45px;
+  --text-h1--line-height: 1.05;
+  --text-h1--letter-spacing: -2px;
+  --text-h1--font-weight: 500;
+
+  --text-h2: 26px;
+  --text-h2--line-height: 1.2;
+  --text-h2--letter-spacing: -0.5px;
+  --text-h2--font-weight: 500;
+
+  --text-h3: 14px;
+  --text-h3--font-weight: 500;
+
+  --text-body: 13px;
+  --text-body--line-height: 1.75;
+  --text-body--font-weight: 400;
+
+  --text-label: 10px;
+  --text-label--letter-spacing: 1.5px;
+  --text-label--font-weight: 500;
+
+  --text-tag: 11px;
+  --text-tag--font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +117,10 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .chat {
+    @apply bg-teal-100 text-teal-900
+  }
 }

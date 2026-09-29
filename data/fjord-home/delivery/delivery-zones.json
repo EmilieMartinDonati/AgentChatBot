@@ -1,0 +1,6 @@
+[
+  { "zone": "Zone 1 - Paris and inner suburbs", "postcodes": ["75", "92", "93", "94"], "deliveryFee": "39 EUR", "freeAbove": "1000 EUR", "leadTimeDays": "5-10", "eveningSlots": true },
+  { "zone": "Zone 2 - Ile-de-France", "postcodes": ["77", "78", "91", "95"], "deliveryFee": "59 EUR", "freeAbove": "1500 EUR", "leadTimeDays": "7-12", "eveningSlots": false },
+  { "zone": "Zone 3 - Major cities (Lyon, Lille, Bordeaux, Nantes, Marseille)", "postcodes": ["69", "59", "33", "44", "13"], "deliveryFee": "79 EUR", "freeAbove": "2000 EUR", "leadTimeDays": "10-15", "eveningSlots": false },
+  { "zone": "Zone 4 - Rest of mainland France", "postcodes": ["other"], "deliveryFee": "99 EUR", "freeAbove": null, "leadTimeDays": "15-21", "eveningSlots": false, "notes": "Corsica and overseas territories are not delivered." }
+]
