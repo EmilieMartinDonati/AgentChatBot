@@ -1,0 +1,32 @@
+{
+  "authorizedStatuses": [
+    "pending",
+    "confirmed",
+    "packed",
+    "shipped"
+  ],
+  "advanceNoticePeriodInHours": 24,
+  "rescheduleLimitInDaysFromOriginalOrderDate": 60,
+  "maxReschedules": null,
+  "fees": [
+    {
+      "withinHours": 72,
+      "amountEur": 25
+    },
+    {
+      "withinHours": 24,
+      "amountEur": 59
+    }
+  ],
+  "openDays": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "orgId": "fjord-home",
+  "version": 1
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "delivery/delivery-slots.md",
+    "field": "advanceNoticePeriodInHours",
+    "quote": "Less than 24 hours before the slot, the date cannot be changed; the delivery must be refused and rebooked, which costs €59."
+  },
+  {
+    "quote": "Between 72 hours and 24 hours before the slot, the change costs €25.",
+    "field": "fees",
+    "file": "delivery/delivery-slots.md"
+  },
+  {
+    "quote": "Less than 24 hours before the slot, the date cannot be changed; the delivery must be refused and rebooked, which costs €59.",
+    "field": "fees",
+    "file": "delivery/delivery-slots.md"
+  },
+  {
+    "file": "delivery/delivery-slots.md",
+    "quote": "The new delivery date must be within 60 days of the original order date.",
+    "field": "rescheduleLimitInDaysFromOriginalOrderDate"
+  }
+]

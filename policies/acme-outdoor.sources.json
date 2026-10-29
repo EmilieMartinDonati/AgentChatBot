@@ -1,0 +1,32 @@
+[
+  {
+    "field": "authorizedStatuses",
+    "quote": "| pending | Yes, freely, to any date within the next 30 days |\n| confirmed | Yes, freely, to any date within the next 30 days |\n| packed | Only to a later date, maximum 14 days later |\n| shipped | No – the parcel is already with the carrier |\n| delivered / cancelled | No |",
+    "file": "shipping/change-delivery-date.md"
+  },
+  {
+    "file": "shipping/change-delivery-date.md",
+    "quote": "| pending | Yes, freely, to any date within the next 30 days |\n| confirmed | Yes, freely, to any date within the next 30 days |",
+    "field": "rescheduleLimitInDaysFromOriginalOrderDate"
+  },
+  {
+    "quote": "- The new shipping date must be a business day (Monday to Friday). Our warehouse does not ship on weekends or French public holidays.",
+    "field": "openDays",
+    "file": "shipping/change-delivery-date.md"
+  },
+  {
+    "field": "advanceNoticePeriodInHours",
+    "quote": "- A shipping date cannot be earlier than tomorrow.",
+    "file": "shipping/change-delivery-date.md"
+  },
+  {
+    "file": "shipping/change-delivery-date.md",
+    "field": "maxReschedules",
+    "quote": "- Each order can be rescheduled at most 2 times."
+  },
+  {
+    "field": "fees",
+    "quote": "- Rescheduling is free of charge.",
+    "file": "shipping/change-delivery-date.md"
+  }
+]

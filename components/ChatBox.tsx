@@ -11,6 +11,8 @@ const orgIdTest = "acme-outdoor"
 
 export default function ChatBox() {
 
+    const [threadId] = useState(() => crypto.randomUUID());
+
     const [messages, setMessages] = useState<Message[]>([])
     const [input, setInput] = useState<string>("")
 
@@ -32,13 +34,11 @@ export default function ChatBox() {
         const res = await fetch("/api/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ message: inputText, orgId: orgIdTest, history: lastMessages }),
+            body: JSON.stringify({ message: inputText, orgId: orgIdTest, threadId, history: lastMessages }),
         });
         const data = await res.json();
         setMessages((prev) => [...prev, { role: "chat", text: data.answer ?? data.error }]);
     }
-
-    console.log("messages", messages)
 
     return (
         <div className="chat flex flex-col">

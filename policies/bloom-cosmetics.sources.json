@@ -1,0 +1,12 @@
+[
+  {
+    "quote": "Orders can be modified only while their status is 'pending', which lasts 2 hours after payment.",
+    "file": "shipping/shipping-faq.csv",
+    "field": "authorizedStatuses"
+  },
+  {
+    "field": "advanceNoticePeriodInHours",
+    "quote": "Orders can be modified only while their status is 'pending', which lasts 2 hours after payment.",
+    "file": "shipping/shipping-faq.csv"
+  }
+]

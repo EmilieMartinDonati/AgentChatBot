@@ -1,0 +1,20 @@
+{
+  "authorizedStatuses": [
+    "pending",
+    "confirmed",
+    "packed"
+  ],
+  "advanceNoticePeriodInHours": 24,
+  "rescheduleLimitInDaysFromOriginalOrderDate": 30,
+  "maxReschedules": 2,
+  "fees": [],
+  "openDays": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "orgId": "acme-outdoor",
+  "version": 1
+}

@@ -1,8 +1,8 @@
-import { model } from "../lib/llm";
+import { getModel } from "../lib/llm";
 
 async function main() {
 
-  const response = await model.invoke("Say hello in one short sentence.");
+  const response = await getModel().invoke("Say hello in one short sentence.");
   console.log(response.content);
 }
 

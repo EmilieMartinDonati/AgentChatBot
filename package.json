@@ -11,7 +11,8 @@
     "seed": "tsx --env-file=.env scripts/seed.ts",
     "seed:dry": "tsx scripts/seed.ts --dry-run",
     "testllm": "tsx --env-file=.env scripts/test-llm.ts",
-    "seedorders": "tsx --env-file=.env scripts/seed-orders.ts"
+    "seedorders": "tsx --env-file=.env scripts/seed-orders.ts",
+    "updatePolicy": "tsx --env-file=.env scripts/update-policy.ts"
   },
   "dependencies": {
     "@huggingface/transformers": "^3.8.1",
@@ -27,7 +28,8 @@
     "next": "16.3.6",
     "pdf-parse": "^1.1.4",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

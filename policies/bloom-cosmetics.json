@@ -1,0 +1,20 @@
+{
+  "authorizedStatuses": [
+    "pending"
+  ],
+  "advanceNoticePeriodInHours": 2,
+  "rescheduleLimitInDaysFromOriginalOrderDate": null,
+  "maxReschedules": null,
+  "fees": [],
+  "openDays": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "orgId": "bloom-cosmetics",
+  "version": 1
+}

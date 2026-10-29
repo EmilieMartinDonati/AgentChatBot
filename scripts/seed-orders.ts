@@ -1,7 +1,7 @@
 
 import { client, db } from "../lib/db";
 
-type OrderStatus = "pending" | "confirmed" | "packed" | "shipped" | "delivered" | "cancelled";
+export type OrderStatus = "pending" | "confirmed" | "packed" | "shipped" | "delivered" | "cancelled";
 
 type Order = {
     orderId: string;

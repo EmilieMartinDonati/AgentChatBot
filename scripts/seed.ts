@@ -107,6 +107,7 @@ async function buildChunksForOrg(orgDir: string): Promise<Document<ChunkMetadata
     for (const file of files) {
       const filePath = path.join(orgDir, theme, file);
       const format = path.extname(file).slice(1).toLowerCase();
+
       const { docs, splittable } = await loadFile(filePath);
 
       const splitter = format === "md" ? markdownSplitter : textSplitter;
@@ -207,3 +208,36 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
+
+
+
+
+
+/**
+ * LANCHAIN A ICI : 
+ * A RecursiveCharacterTextSplitter qui peut supporter plusieurs languages et qui prend en paramètre : 
+ * ChunkSize et chunkOverlap dans un objet
+ * 
+ * Un pdfloader qui prend en argument direct le filepath (créé avec joinpath) et qui a une method async .load()
+ * 
+ * une class Document qui prend en construction pageContent et metadata dans un objet, bien que metadata soit optionel.
+ */
+
+
+/**
+ * VECTOR STORE A ICI : 
+ * A RecursiveCharacterTextSplitter qui peut supporter plusieurs languages et qui prend en paramètre : 
+ * ChunkSize et chunkOverlap dans un objet
+ * 
+ * Un pdfloader qui prend en argument direct le filepath (créé avec joinpath) et qui a une method async .load()
+ * 
+ * une class Document qui prend en construction pageContent et metadata dans un objet, bien que metadata soit optionel.
+ */
+
+
+
+/** TODO
+ *  Move the index creation in a separate file for example getOrCreateVectorIndex or ensureVectorIndex 
+ * It is separate logic even if it's mandatory to make the vector search work
+ * 
+ */
